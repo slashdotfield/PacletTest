@@ -3,20 +3,19 @@
 (* ::Input::Initialization:: *)
 (* Paclet Info File *)
 
-(* created 2017.06.07*)
+(*created 5/12/2019*)
 
 Paclet[
-  Name -> "PacletTest",
-  Version -> "0.0.1",
-  MathematicaVersion -> "9+",
-    Creator -> "Sean Fortuna",
-    Extensions ->
-     {
-            {"Kernel", Context -> "PacletTest`"}, 
-            {"Documentation", Resources -> 
-                {
-                	"ReferencePages/Symbols/AddTwo", 
-                	"ReferencePages/Symbols/AddThree",}
-            , Language -> "English", LinkBase -> "PacletTest"}
-     }
+Name -> "PacletTest",
+Version -> "1.0",
+MathematicaVersion -> "9+",
+Description->"Testing out making a paclet",
+ Creator -> "Sean Fortuna",
+Extensions->{{"Kernel","Root"->".","Context"->{"PacletTest`"}},
+{"Documentation",
+Resources -> 
+	{"ReferencePages/Symbols/AddTwo",
+	"ReferencePages/Symbols/AddThree"},
+"LinkBase"->"PacletTest",
+"Language" ->"English"}}
 ]
