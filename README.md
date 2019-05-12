@@ -16,11 +16,11 @@ Mathematica always uses the latest version of a package, so it is always safe to
 
 To list all installed version, simply evaluate
 
-		PacletFind["PacletTest`"]
+		PacletFind["PacletTest"]
 
 To uninstall a version, simply evaluate 'PacletUninstall' to it. To uninstall all version, simply evaluate
 
-		PacletUninstall["PacletTest`"]
+		PacletUninstall["PacletTest"]
 
 ## Documentation
 
