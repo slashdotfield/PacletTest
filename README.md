@@ -4,7 +4,7 @@ Testing out documentation and paclets. PacletTest has two functions, AddTwo[x] a
 
 ## Installation
 
-- [Download the lastest release](https://github.com/slashdotfield/PacletTest/releases), distributed as a '.paclet' file. Install it using the 'PacletInstall' functions in Mathematica. Assuming that the file 'PacletTest-1.0.paclet' was downloaded in the directory "~/Downloads", evaluate
+- [Download the lastest release](https://github.com/slashdotfield/PacletTest/releases), distributed as a '.paclet' file under the Assets tab of the latest release. Install it using the 'PacletInstall' functions in Mathematica. Assuming that the file 'PacletTest-1.0.paclet' was downloaded in the directory "~/Downloads", evaluate
 
 		PacletInstall["~/Downloads/PacletTest-1.0.paclet"]
 
