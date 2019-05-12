@@ -1,0 +1,176 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6221,        168]
+NotebookOptionsPosition[      3723,        120]
+NotebookOutlinePosition[      4129,        136]
+CellTagsIndexPosition[      4086,        133]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["AddTwo", "DocSection",ExpressionUUID->"cd390916-8e8a-4283-a459-8a7e9df0a4a6"],
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", "x", "]"}]], "UsageInput",ExpressionUUID->"c5273348-5560-48cd-9c36-62d3c87bb258"],
+
+Cell["Adds 2 to x.", "UsageText",ExpressionUUID->"5bd198e4-7a14-4d4d-a52f-93f307004f4c"],
+
+Cell[CellGroupData[{
+
+Cell["Details", "DetailsSection",ExpressionUUID->"8406e8e1-2e93-46fe-a59d-62bf991e34e5"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox["AddTwo", InlineRef]],ExpressionUUID->
+  "bc4d42e1-1e9f-4243-866d-780c832bf5f2"],
+ " takes an input number x and adds 2 to it"
+}], "DetailsItem",ExpressionUUID->"be76048c-bf44-4dec-947c-921c6cb49263"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Basic Examples", "ExampleSection",ExpressionUUID->"7584a0a1-7a8e-44b3-8d96-b91728dd202c"],
+
+Cell["Load PacletTest:", "ExampleText",ExpressionUUID->"a1dd0f69-3bcb-4d1e-9413-9c53a95c08be"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletTest`\>\"", "]"}]], "ExamplesInput",
+ InitializationCell->
+  True,ExpressionUUID->"6c2cd2aa-f0f0-45a2-9545-2c77ab274ba3"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"AddTwo", "[", "x", "]"}], InlineRef]],ExpressionUUID->
+  "511253ed-150d-427d-a3d6-4533f35c9c11"],
+ " adds 2 to an integer:"
+}], "ExampleText",ExpressionUUID->"5da70e2c-215b-43b6-b739-73af9a987e40"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", "1", "]"}]], "ExamplesInput",
+ CellLabel->"In[16]:=",ExpressionUUID->"6fff3844-1333-4300-8625-4ac262e4225a"],
+
+Cell[BoxData["3"], "ExamplesOutput",
+ CellLabel->"Out[16]=",ExpressionUUID->"d30868bd-c3e8-4175-b55b-5f2cd5dd8792"]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"AddTwo", "[", "x", "]"}], InlineRef]],
+  FormatType->"InlineRef",ExpressionUUID->
+  "fac214c4-3e67-4819-b5e0-0a47b429ac0f"],
+ " adds 2 to a floating point:"
+}], "ExampleText",ExpressionUUID->"e5b4adcf-19f0-42dd-82e1-bfc2d8edfea6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", "1.1", "]"}]], "ExamplesInput",
+ CellLabel->"In[17]:=",ExpressionUUID->"f1e7aa36-af34-4312-a6cd-3663b518de7c"],
+
+Cell[BoxData["3.1`"], "ExamplesOutput",
+ CellLabel->"Out[17]=",ExpressionUUID->"ec9d5007-9d3f-4261-8398-f9f458937d39"]
+}, Open  ]],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"AddTwo", "[", "x", "]"}], InlineRef]],
+  FormatType->"InlineRef",ExpressionUUID->
+  "e0c7c3a2-c6db-42f2-a609-82b4e4eb688d"],
+ " can be used recusively"
+}], "ExampleText",ExpressionUUID->"f2f7316f-43a5-4e41-8040-f969027719ba"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", 
+  RowBox[{"AddTwo", "[", "1", "]"}], "]"}]], "ExamplesInput",
+ CellLabel->"In[18]:=",ExpressionUUID->"1e625c38-a709-4503-8efd-c4b3a9f7b15a"],
+
+Cell[BoxData["5"], "ExamplesOutput",
+ CellLabel->"Out[18]=",ExpressionUUID->"a49546ee-3848-43df-bcc8-c90785738512"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["See Also", "SeeAlsoSection",ExpressionUUID->"d60d569a-302a-4812-aa67-4de102640de8"],
+
+Cell["AddThree", "SeeAlso",ExpressionUUID->"9e41e3f2-ccf0-4a03-a92c-45f00180bad6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell["", "SectionSeparator",ExpressionUUID->"789c353b-5390-4fdd-8aad-5b85c521437a"]
+},
+WindowSize->{775, 561},
+WindowMargins->{{287, Automatic}, {Automatic, 54}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "DocGen.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 83, 0, 59, "DocSection",ExpressionUUID->"cd390916-8e8a-4283-a459-8a7e9df0a4a6"],
+Cell[666, 24, 119, 1, 44, "UsageInput",ExpressionUUID->"c5273348-5560-48cd-9c36-62d3c87bb258"],
+Cell[788, 27, 88, 0, 41, "UsageText",ExpressionUUID->"5bd198e4-7a14-4d4d-a52f-93f307004f4c"],
+Cell[CellGroupData[{
+Cell[901, 31, 88, 0, 44, "DetailsSection",ExpressionUUID->"8406e8e1-2e93-46fe-a59d-62bf991e34e5"],
+Cell[992, 33, 241, 5, 31, "DetailsItem",ExpressionUUID->"be76048c-bf44-4dec-947c-921c6cb49263"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1270, 43, 95, 0, 44, "ExampleSection",ExpressionUUID->"7584a0a1-7a8e-44b3-8d96-b91728dd202c"],
+Cell[1368, 45, 94, 0, 34, "ExampleText",ExpressionUUID->"a1dd0f69-3bcb-4d1e-9413-9c53a95c08be"],
+Cell[1465, 47, 169, 3, 44, "ExamplesInput",ExpressionUUID->"6c2cd2aa-f0f0-45a2-9545-2c77ab274ba3",
+ InitializationCell->True],
+Cell[1637, 52, 251, 6, 34, "ExampleText",ExpressionUUID->"5da70e2c-215b-43b6-b739-73af9a987e40"],
+Cell[CellGroupData[{
+Cell[1913, 62, 146, 2, 28, "ExamplesInput",ExpressionUUID->"6fff3844-1333-4300-8625-4ac262e4225a"],
+Cell[2062, 66, 115, 1, 32, "ExamplesOutput",ExpressionUUID->"d30868bd-c3e8-4175-b55b-5f2cd5dd8792"]
+}, Open  ]],
+Cell[2192, 70, 284, 7, 34, "ExampleText",ExpressionUUID->"e5b4adcf-19f0-42dd-82e1-bfc2d8edfea6"],
+Cell[CellGroupData[{
+Cell[2501, 81, 148, 2, 28, "ExamplesInput",ExpressionUUID->"f1e7aa36-af34-4312-a6cd-3663b518de7c"],
+Cell[2652, 85, 118, 1, 32, "ExamplesOutput",ExpressionUUID->"ec9d5007-9d3f-4261-8398-f9f458937d39"]
+}, Open  ]],
+Cell[2785, 89, 279, 7, 34, "ExampleText",ExpressionUUID->"f2f7316f-43a5-4e41-8040-f969027719ba"],
+Cell[CellGroupData[{
+Cell[3089, 100, 179, 3, 28, "ExamplesInput",ExpressionUUID->"1e625c38-a709-4503-8efd-c4b3a9f7b15a"],
+Cell[3271, 105, 115, 1, 32, "ExamplesOutput",ExpressionUUID->"a49546ee-3848-43df-bcc8-c90785738512"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3435, 112, 89, 0, 53, "SeeAlsoSection",ExpressionUUID->"d60d569a-302a-4812-aa67-4de102640de8"],
+Cell[3527, 114, 82, 0, 30, "SeeAlso",ExpressionUUID->"9e41e3f2-ccf0-4a03-a92c-45f00180bad6"]
+}, Open  ]]
+}, Open  ]],
+Cell[3636, 118, 83, 0, 27, "SectionSeparator",ExpressionUUID->"789c353b-5390-4fdd-8aad-5b85c521437a"]
+}
+]
+*)
+

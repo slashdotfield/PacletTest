@@ -1,0 +1,784 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     30106,        775]
+NotebookOptionsPosition[     17778,        508]
+NotebookOutlinePosition[     26277,        703]
+CellTagsIndexPosition[     26234,        700]
+WindowTitle->AddTwo
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       DynamicBox[If[$VersionNumber < 11.1, 
+         Cell[
+         "PACLETTEST SYMBOL", "PacletNameCell", TextAlignment -> Center, 
+          CellID -> 28], 
+         ItemBox[
+          Cell[
+           BoxData[
+            RowBox[{
+              TemplateBox[{8}, "Spacer1"], 
+              Cell[
+              "PACLETTEST SYMBOL", "PacletNameCell", TextAlignment -> Center, 
+               CellID -> 29], 
+              TemplateBox[{8}, "Spacer1"]}]]], Background -> GrayLevel[0.5], 
+          ItemSize -> Full]],
+        ImageSizeCache->{17., {306., 10.}},
+        UpdateInterval->Infinity], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "See Also",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]]]
+         }]],
+         StripOnInput->False], {"\<\"AddThree\"\>":>Documentation`HelpLookup[
+        "paclet:PacletTest/ref/AddThree"]},
+        Appearance->None,
+        BaseStyle->"AnchorBarActionMenu",
+        MenuAppearance->Automatic,
+        MenuStyle->"SeeAlso"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0}],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]]]
+         }]],
+         StripOnInput->False], {
+        RowBox[{
+         RowBox[{"PacletTest", "/", "ref"}], "/", "AddTwo"}]:>None, 
+        RowBox[{"Copy", " ", "Documentation", " ", "Center", " ", "URI"}]:>
+        CopyToClipboard["PacletTest/ref/AddTwo"], Delimiter, 
+        RowBox[{"Copy", " ", "web", " ", "URL"}]:>CopyToClipboard[
+         Hyperlink[
+          
+          URLBuild[{
+           BTools`Paclets`DocGen`$DocGenURLBase, "PacletTest/ref/AddTwo"}]]], 
+        
+        RowBox[{"Go", " ", "to", " ", "URL"}]:>SystemOpen[
+         URLBuild[{
+          BTools`Paclets`DocGen`$DocGenURLBase, "PacletTest/ref/AddTwo"}]]},
+        Appearance->None,
+        BaseStyle->"AnchorBarActionMenu",
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0}]
+    }], "AnchorBar"]}
+  }]], "AnchorBarGrid",
+ CellID->1],
+
+Cell["AddTwo", "ObjectName",
+ CellID->2],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{Cell[BoxData[
+        TemplateBox[{Cell[
+           TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+         "RefLink",
+         BaseStyle->{"InlineFormula"}]]], "[", 
+       StyleBox["x", "TI"], "]"}]], "InlineFormula"],
+     "\[LineSeparator]",
+     Cell[BoxData[
+      RowBox[{"Adds", " ", "2", " ", "to", " ", 
+       RowBox[{"x", "."}]}]], "", "InlineFormula"]
+    }]]}
+  }]], "Usage",
+ CellID->3],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[If[$VersionNumber < 11.1, "", 
+    Cell[
+     BoxData[
+      ToBoxes[
+       Toggler[
+        Dynamic[
+         MatchQ[
+          CurrentValue[
+           EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+           Closed], 
+          Alternatives[Open, True]], (CurrentValue[
+            EvaluationNotebook[], {
+            TaggingRules, "Openers", "NotesSection"}] = #; Null)& , 
+         ImageSizeCache -> {14., {5., 9.}}], {True -> Style[
+           Graphics[{
+             Thickness[0.18], 
+             RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+             Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+            PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+           0.68 Inherited], False -> Rotate[
+           Style[
+            Graphics[{
+              Thickness[0.18], 
+              RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+              Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+             PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+            0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]}]]]]],
+   ImageSizeCache->{14., {6., 15.}},
+   UpdateInterval->Infinity]]],
+ Cell["Details", "NotesFrameText"]
+}], "NotesSection",
+ WholeCellGroupOpener->True,
+ CellID->4],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{Cell[
+     TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]]],
+ " takes an input number x and adds 2 to it"
+}], "Notes",
+ CellID->5],
+
+Cell[BoxData[
+ ButtonBox[
+  DynamicBox[ToBoxes[
+    Overlay[{
+      Graphics[{}, Background -> If[
+         CurrentValue["MouseOver"], 
+         RGBColor[0.942, 0.978, 0.992], None], ImageSize -> {720, 70}, 
+       AspectRatio -> Full], 
+      Pane[
+       Grid[{{"", 
+          Spacer[10], 
+          Image[CompressedData["
+1:eJzt2sEJwkAQBdBFPXi0Bbvw6kXwGrGABGPwEiERxJZsUrcIyRD3PfgLsw18
+GGbb3KvrIqU0rvNT1c/9MNSv0yYP5368dX17OfaPtmuHXbPMn6ucQ8475wMA
+AAAA/IUEQGGimwcAAAAAAAAAAACYo+gLSACmFt08AAAAAAAAAAAAwBxFX0AC
+MLXo5gEAAAAAShO9FQUAAAAAfiN61wjA1KKbBwAAAAAozRfsBhVB
+           "], "Byte", 
+           ColorSpace -> "RGB", ImageSize -> All, Interleaving -> False, 
+           Magnification -> Automatic]}}, Spacings -> {0, 0}, 
+        Alignment -> {Center, Center}], ImageSize -> {720, 70}, 
+       Alignment -> {Left, Center}], 
+      If[
+       CurrentValue["MouseOver"], 
+       Image[CompressedData["
+1:eJzdmc9vE0cUxyNAosfeckGIXnujJy6tVKk9VOLStFVz4AIlRD00VQMSouXQ
+/hEIIfXAta0qFTggkBqpCA40CSUJtKX8ik1i4ti7XjuJfyQkw/uud52345nx
+7I+A1cM3tuPdnfeZN+/HjN869vXQiV0DAwMn36A/Q0dPvz8+fvTMJ2/Sh8/G
+Tn45OjZy/KOxUyOjI+OHju2mf74TaA9JCPG/kdfaTKr9pCOkC6TbpBJJBNoi
+FUk3SedIw6TBFGMplZJjnPQ7szmOrpNGXzPHWdLdhPbLukUae8UcB1PMfy9d
+JR14BRznTXaU1tbFvLMq/lmqirsLrpjMlcWf8yVf0/R+ZtEV/xZrIl+pC6ex
+oXtOjfQp3TMQV5YcP+rsX/AaYrZQ6dhsoykSeIsrLR3P+R3gUDIsrbbE7GI8
++1X6u1gV5brSP7FYenAo19ITdy21/Vx38mWxWG2oWIYy4DioYniwXMuUgStH
+8yON55L2peToyks7yRAKeUAa90oKjrNJ1hLi9z7FL+a1QDFcWtsQy6vrtGaa
+4rFbt84HhVpTZjmekCNS4xDTvcZ+sLxC8fpCVFpbEXmBws9LxHXvuWd81vQz
+R7iNF5zjRgKOb2RfmPLSFMVoe/7IzuZmx94Zdg/e+98F3+Pap7R+TCz/lVZk
+nwzH5IjEBeqDiQHz68nzTvZ2cYScgXBt3sAymSvJ+fhyDI79Xb4wrOlCrRXM
+72Ysf4QceP/Y0cfdw/Kq7JO9lhxH+H3oNcx+34qul/VtFq0/ePz4n6O+47qT
+d2SODy05LvD70C/p8pIf02y9VyQmFUd43fZr+/oFyme6+ZJ6lx8sOW5zDvRA
+qmcjt8p283Wvio9O/ATXyPGEuVeNNe9E6sklSw6+j/P7VtWzc24jErN8vXuG
++JBjiAu9sGos1F5m0z1Ljsh65L13JL59X7dt1YnfO+n37fpr/Xh31bkLtYbZ
+VEjCoVuzqNMYW/d9XMFHuhyMfMlsqlpybNlwFNc2fH9kxmGoJXOFiD+eWXIU
+Oce0Zl2hXwpjOYt15RnqCHIKs+kvS46bnAN7UdWzsZbDnNlV23R5l8W3Jwnf
+3dfkRqk/+dWS4xzn0OWQuQKrB5J94asq77ZZN4UncZeb+pySr0T2JN9Zcgxz
+DlP/E/ZVPOdymfqrSB9AelrR93DoKZhN71lyDHIOnGtMaZ6PfMgZqlIdUXJI
+9Q+vTkNfA2eofkk5dI8lB3TNpqZDTyhOIvWczbOuT5TXFM4ZdM+XavnPOgYN
+xyjnQH+jG6e9frdZtmPX3LeH/nhYUvdvEPYEbjOylzockwO6xVlMc+bnL8qZ
+jrTvU3GEa8/1/WDe60u+mDAxGDi+4hzYz+BsxjQubM1jPyL1XTyvlf2Yrmvj
+gQt1nO1tq6S3E3BAVzkLzpd6jQ3BRuRr+AhrDj3lI9oPoT7ocmsWLAaOA8G9
+LA9ne/6WJUuP88QhuXc01ZTXyWJxvtt1Nvp8pemfzfQTi+V5excLnoneB+ca
+SW1D7kDc257PmVhi/P7xMcmReZDLcK4Rxz/oP2F/WB9gW1qWmL9H7SNdkVl4
+zUTex14UfQv6SewfkKvgO8TWcn1deW9aloS/D35B+kPHE1MTYV7MiiUGR6jP
+SZcT2v+TF/QasCFLlgQcofaSPiB9T/qNNEtaJHmkHGmK9AvpW9K7pN1y3syK
+JSWHsfexVVKWOXYW0Q8cSViQ9/lvcv3CEYdFZug3DhsWFUM/cphYdAz9yqFi
+QUzrGEgX03LssDosBl1MUQf7haXD8BJ6c/TW
+        "], "Byte", ColorSpace -> "RGB", 
+        Interleaving -> True, Magnification -> 0.5], 
+       Image[CompressedData["
+1:eJztmctL1FEUx4cUbNnOjYht29mqTUFQi6BNU5ELN5omLZpIg6hc1B8hIrRo
+WxGULqQgoZzxAer4yPcDZJzxnY6Kb+Z2vsPMdOd67/3d30NnFh34huXv3ns+
+93HOubeL1U/9j875fL6G8/SHv+rF9fr6qpd3L9Bf7gcaHtcFamtuBZ7X1tXW
+X6kuoH+8nFIhiTH2X4yVkipJLaRe0ir7ZwnSMilIaiJVkIrzwGde9aQfzJl9
+J9Xl2P9G0qBD/0ULkQJn7H85cz7/VtZOKjsDhmadE7u7u2xhYYGNjY2xvr4+
+FgqFWGdnZ1JdXV1sYGCATU5OsqWlJXZ4eKjqZot0j9r47MqQ4Z1q4NXVVTY4
+OJjx2UTBYDDJu7W1peq2+RQ4pAzb29ssHA7b8l+m8fFxdnBw4JrFgkG6lyKR
+SHJO3TKk1d3dzdbX12VD+T3gKBc7TSQSbGpqyjP/RS0uLopD/iGVuOQ4EZdO
+k0HD0uaCo1G2l6x8wF4bHR1N+hKPx9ne3l4yjm1sbCTbm8aDzc1NcfgahxxZ
+OQ5n2uo8TE9Pq84rE/saGRnR9tXb28uOjo74Zr8ccDwTx9bFJZxRzLdoyBfp
+b/CzaNFoVMsyMzMjNqmwyZF1LpAfdAw7OzvSebfigK2srGj36P7+Pv95qw2O
+UnEs3Z6WrYMdDtj8/Lyy/7m5OfHzIkOOSr4RzqjuPOjMlAOxnP9WPCeC3TTk
+aOEboV5SrbnVmTblgK2trSnnS6hd3hpyZE0AaiBZ34itVmaHA2vS09MjHQtz
+ydlXQw7+HpesW2V9S3KVKw7YxMSEdCzkXs5+G3JkGV9780KOS/uqEt8WP+u+
+hanyLHINZzEnHKo9izyt+71dwXAvkf0O8ZKzuCFHwoQDceysOIaHh3mXIoYc
+y3wj3ONkfafzhpf7SpVHhJgSNuQI8o1UcR172crsnnP4KxtLqE8+G3I08Y1w
+nzbYs645jo+PlTFFiI2vDTkq+EaqPQuhbvWKIxaLWcaUlF0z5CjmG+FdQ1Wv
+C/HQMQfqc1UO7O/vFz8vNOSAvvENVTkdEnKtIw68Mxj2/1HFoOCo4xujvlGN
+A6H2dsoxOzur7Bd3Apwbzm7b5IBCpnMGIWaiRjLlwF6y6lNYiw4dg4bjCd8J
+alvMj25c+Iq6VeThDfOLe6DqPPBCTOTutiiELjnggNp5H/C+ZDU2BB9R8yHH
+IN4hbmK9kB9UsdULFg1HWaptxuCTHT+8kCmLhgPyi3sDc+zlW6JXLBYc0Im3
+Ubwv4c6ZTywGHFIW9Inax83aIHbg3Ju+z+lYDDmgO6QTj8l4m8G7hp31QWyD
+/+n8AN/cstjggEpIbSJL2pAzEfdxF0XdMjQ0lLw/IFZh7XC2hHopa33dsNjk
+SOsh6aeKx6Z1pHzJFQv0gNTq0P8PLFVrpHzINQtURLpBekP6QsJlNErCw/k8
+qY/0ifSKdJVUIImbXrG44dDWPqZyyoJzyFnOOZywIO4L/yeXFxx2WCQMecVh
+wqJgyDsOHYuGIS85ZCw40xqG9245TlkZFo3lO4MJS4bhL7E9ExQ=
+        "], "Byte", 
+        ColorSpace -> "RGB", Interleaving -> True, Magnification -> 0.5]]}, 
+     Alignment -> {-0.85, Center}], StandardForm],
+   ImageSizeCache->{720., {32., 38.}}],
+  Appearance->None,
+  ButtonFunction:>(CurrentValue[
+     EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}] = Open),
+  
+  Evaluator->Automatic,
+  Method->"Preemptive"]], "NotesThumbnails",
+ CellOpen->FEPrivate`If[
+   FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], False, 
+   FEPrivate`Not[
+    FEPrivate`Or[
+     FEPrivate`SameQ[
+      FrontEnd`CurrentValue[
+       FrontEnd`EvaluationNotebook[], {
+       TaggingRules, "Openers", "NotesSection"}], Open], 
+     FEPrivate`SameQ[
+      FrontEnd`CurrentValue[
+       FrontEnd`EvaluationNotebook[], {
+       TaggingRules, "Openers", "NotesSection"}], True]]]],
+ CellID->6]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell["", "PageDelimiter",
+ CellID->7],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[If[$VersionNumber < 11.1, "", 
+    Cell[
+     BoxData[
+      ToBoxes[
+       Toggler[
+        Dynamic[
+         MatchQ[
+          CurrentValue[
+           EvaluationNotebook[], {
+           TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed], 
+          Alternatives[Open, True]], (CurrentValue[
+            EvaluationNotebook[], {
+            TaggingRules, "Openers", "PrimaryExamplesSection"}] = #; Null)& , 
+         ImageSizeCache -> {14., {5., 9.}}], {True -> Style[
+           Graphics[{
+             Thickness[0.18], 
+             RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+             Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+            PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+           0.68 Inherited], False -> Rotate[
+           Style[
+            Graphics[{
+              Thickness[0.18], 
+              RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+              Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+             PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+            0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]}]]]]],
+   ImageSizeCache->{14., {11., 12.}},
+   UpdateInterval->Infinity]]],
+ "Examples"
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CellID->8],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[If[$VersionNumber < 11.1, "", 
+    Cell[
+     BoxData[
+      ToBoxes[
+       Toggler[
+        Dynamic[
+         MatchQ[
+          CurrentValue[
+           EvaluationNotebook[], {
+           TaggingRules, "Openers", "ExampleSection", "0"}, Closed], 
+          Alternatives[Open, True]], (CurrentValue[
+            EvaluationNotebook[], {
+            TaggingRules, "Openers", "ExampleSection", "0"}] = #; Null)& , 
+         ImageSizeCache -> {14., {5., 9.}}], {True -> Style[
+           Graphics[{
+             Thickness[0.18], 
+             RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+             Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+            PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+           0.68 Inherited], False -> Rotate[
+           Style[
+            Graphics[{
+              Thickness[0.18], 
+              RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+              Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+             PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+            0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]}]]]]],
+   ImageSizeCache->{14., {11., 12.}},
+   UpdateInterval->Infinity]]],
+ "Basic Examples"
+}], "ExampleSection",
+ WholeCellGroupOpener->True,
+ CellID->9],
+
+Cell["Load PacletTest:", "ExampleText",
+ CellID->10],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletTest`\>\"", "]"}]], "Input",
+ InitializationCell->True,
+ CellID->11],
+
+Cell[TextData[{
+ Cell[BoxData[
+  RowBox[{Cell[BoxData[
+    TemplateBox[{Cell[
+       TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+     "RefLink",
+     BaseStyle->{"InlineFormula"}]]], "[", "x", "]"}]], "InlineFormula"],
+ " adds 2 to an integer:"
+}], "ExampleText",
+ CellID->12],
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", "1", "]"}]], "Input",
+ CellLabel->"In[16]:=",
+ CellID->13],
+
+Cell[BoxData["3"], "Output",
+ CellLabel->"Out[16]=",
+ CellID->14],
+
+Cell[TextData[{
+ Cell[BoxData[
+  RowBox[{Cell[BoxData[
+    TemplateBox[{Cell[
+       TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+     "RefLink",
+     BaseStyle->{"InlineFormula"}]]], "[", "x", "]"}]], "InlineFormula"],
+ " adds 2 to a floating point:"
+}], "ExampleText",
+ CellID->15],
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", "1.1", "]"}]], "Input",
+ CellLabel->"In[17]:=",
+ CellID->16],
+
+Cell[BoxData["3.1`"], "Output",
+ CellLabel->"Out[17]=",
+ CellID->17],
+
+Cell[TextData[{
+ Cell[BoxData[
+  RowBox[{Cell[BoxData[
+    TemplateBox[{Cell[
+       TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+     "RefLink",
+     BaseStyle->{"InlineFormula"}]]], "[", "x", "]"}]], "InlineFormula"],
+ " can be used recusively"
+}], "ExampleText",
+ CellID->18],
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", 
+  RowBox[{"AddTwo", "[", "1", "]"}], "]"}]], "Input",
+ CellLabel->"In[18]:=",
+ CellID->19],
+
+Cell[BoxData["5"], "Output",
+ CellLabel->"Out[18]=",
+ CellID->20]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[If[$VersionNumber < 11.1, "", 
+    Cell[
+     BoxData[
+      ToBoxes[
+       Toggler[
+        Dynamic[
+         MatchQ[
+          CurrentValue[
+           EvaluationNotebook[], {
+           TaggingRules, "Openers", "ExampleSection", "1"}, Closed], 
+          Alternatives[Open, True]], (CurrentValue[
+            EvaluationNotebook[], {
+            TaggingRules, "Openers", "ExampleSection", "1"}] = #; Null)& , 
+         ImageSizeCache -> {14., {5., 9.}}], {True -> Style[
+           Graphics[{
+             Thickness[0.18], 
+             RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+             Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+            PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+           0.68 Inherited], False -> Rotate[
+           Style[
+            Graphics[{
+              Thickness[0.18], 
+              RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+              Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+             PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+            0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]}]]]]],
+   ImageSizeCache->{14., {6., 15.}},
+   UpdateInterval->Infinity]]],
+ "Definitions"
+}], "ExampleSection",
+ WholeCellGroupOpener->True,
+ CellID->21],
+
+Cell["Examine all definitions:", "ExampleText",
+ CellID->22],
+
+Cell[BoxData[
+ RowBox[{"GeneralUtilities`PrintDefinitionsLocal", "[", "PacletTest`AddTwo", 
+  "]"}]], "Input",
+ CellID->23]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell["See Also", "SeeAlsoSection",
+ CellID->24],
+
+Cell[TextData[Cell[BoxData[
+ TemplateBox[{Cell[
+    TextData["AddThree"]],"paclet:PacletTest/ref/AddThree"},
+  "RefLink",
+  BaseStyle->Dynamic[
+    If[$VersionNumber < 11.1, {"InlineFormula", FontFamily -> "Verdana"}, {
+     "InlineFormula"}], UpdateInterval -> 
+    DirectedInfinity[1]]]], "InlineFormula"]], "SeeAlso",
+ CellID->25]
+}, Open  ]],
+
+Cell["Generated on  Sun 12 May 2019 10:18:13", "History",
+ CellID->26],
+
+Cell[" ", "FooterCell",
+ CellID->27]
+},
+ClosingSaveDialog->False,
+Saveable->False,
+WindowSize->{775, 561},
+WindowMargins->{{287, Automatic}, {Automatic, 54}},
+WindowTitle->"AddTwo",
+TaggingRules->{
+ "ColorType" -> "SymbolColor", "ModificationHighlight" -> False, "LinkTrails" -> 
+  "", "HasOptions" -> False, "SearchTextTranslated" -> "", 
+  "Metadata" -> {
+   "built" -> "{2019, 5, 12, 10, 18, 14.2704108}", 
+    "history" -> {"11.3", "", ""}, "context" -> "Documents`", 
+    "keywords" -> {"addtwo", "add", "two"}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> "PacletTest",
+     "language" -> "en", "paclet" -> "Mathematica", "status" -> "None", 
+    "summary" -> "AddTwo[x]. Adds 2 to x.", "synonyms" -> {}, 
+    "tabletags" -> {}, "title" -> "AddTwo", "titlemodifier" -> "", 
+    "windowtitle" -> "AddTwo", "type" -> "Symbol", "uri" -> 
+    "PacletTest/ref/AddTwo"}, "NewStyles" -> True, 
+  "Openers" -> {
+   "NotesSection" -> Closed, "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {"0" -> Open, "1" -> Closed}, 
+    "ExampleSection" -> {"1" -> Closed}}},
+CellContext->Notebook,
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"Wolfram"}, "Reference.nb", CharacterEncoding -> 
+       "UTF-8"]]], 
+   Cell[
+    StyleData["Notebook"], DockedCells -> {
+      Cell[
+       BoxData[
+        PanelBox[
+         StyleBox[
+          TemplateBox[{
+            TemplateBox[{9}, "Spacer1"], 
+            TemplateBox[{
+              TooltipBox[
+               DynamicModuleBox[{$CellContext`destination$$ = 0}, 
+                DynamicBox[
+                 FEPrivate`If[FEPrivate`HistoryList["Back"] === {}, 
+                  ButtonBox[
+                   DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "DisabledBackIcon.png"]]], Enabled -> False, Appearance -> 
+                   None, FrameMargins -> 0], 
+                  ButtonBox[
+                   PaneSelectorBox[{True -> DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "BackIconHot.png"]]], False -> DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "BackIcon.png"]]]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]]], ButtonFunction :> 
+                   FrontEndToken[
+                    FrontEnd`ButtonNotebook[], "HyperlinkGoBack"], Evaluator -> 
+                   None, Appearance -> None, FrameMargins -> 0]]], 
+                DynamicModuleValues :> {}], 
+               DynamicBox[
+                FEPrivate`FrontEndResource[
+                "HelpToolbarText", "TooltipBack"]]], 
+              TemplateBox[{2}, "Spacer1"], 
+              TooltipBox[
+               DynamicModuleBox[{$CellContext`destination$$ = 0}, 
+                DynamicBox[
+                 FEPrivate`If[FEPrivate`HistoryList["Forward"] === {}, 
+                  ButtonBox[
+                   DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "DisabledForwardIcon.png"]]], Enabled -> False, 
+                   Appearance -> None, FrameMargins -> 0], 
+                  ButtonBox[
+                   PaneSelectorBox[{True -> DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "ForwardIconHot.png"]]], False -> DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "ForwardIcon.png"]]]}, 
+                    Dynamic[
+                    CurrentValue["MouseOver"]]], ButtonFunction :> 
+                   FrontEndToken[
+                    FrontEnd`ButtonNotebook[], "HyperlinkGoForward"], 
+                   Evaluator -> None, Appearance -> None, FrameMargins -> 
+                   0]]], DynamicModuleValues :> {}], 
+               DynamicBox[
+                FEPrivate`FrontEndResource[
+                "HelpToolbarText", "TooltipForward"]]], 
+              TooltipBox[
+               DynamicBox[
+                ToBoxes[
+                 FEPrivate`GenerateHelpViewerActionMenu[], StandardForm]], 
+               DynamicBox[
+                FEPrivate`FrontEndResource[
+                "HelpToolbarText", "TooltipHistory"]]], 
+              TemplateBox[{13}, "Spacer1"], 
+              TooltipBox[
+               ButtonBox[
+                PaneSelectorBox[{True -> DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "HomeIconHot.png"]]], False -> DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "HomeIcon.png"]]]}, 
+                 Dynamic[
+                  CurrentValue["MouseOver"]]], ButtonFunction :> 
+                Documentation`HelpLookup[
+                  CurrentValue[HomePage], 
+                  FrontEnd`ButtonNotebook[], 
+                  CurrentValue[Language]], Appearance -> None, Evaluator -> 
+                Automatic, Method -> "Preemptive"], 
+               DynamicBox[
+                FEPrivate`FrontEndResource[
+                "HelpToolbarText", "TooltipHome"]]]}, "RowDefault"], 
+            TemplateBox[{39}, "Spacer1"], 
+            FrameBox[
+             StyleBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEExpressions", "HelpViewerSearchField"]], 
+              InputFieldBoxOptions -> {
+               ImageSize -> 
+                Dynamic[AbsoluteCurrentValue[{WindowSize, 1}] - 220], 
+                FrameMargins -> 
+                FEPrivate`Switch[
+                 FEPrivate`$OperatingSystem, "MacOSX", {{3, 3}, {0, -1}}, 
+                  "Windows", {{0, 2}, {0, 2}}, 
+                  Blank[], {{2, 2}, {0, 0}}]}], FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {4, 0}}], 
+            TemplateBox[{12}, "Spacer1"], 
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{True -> DynamicBox[
+                  FEPrivate`ImportImage[
+                   
+                   FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "RevertIconHot.png"]]], False -> DynamicBox[
+                  FEPrivate`ImportImage[
+                   
+                   FrontEnd`FileName[{"Toolbars", "DocCenter"}, 
+                    "RevertIcon.png"]]]}, 
+               Dynamic[
+                CurrentValue["MouseOver"]]], ButtonFunction :> FrontEndToken[
+                FrontEnd`ButtonNotebook[], "Revert", False], Evaluator -> 
+              None, Appearance -> None, Method -> "Preemptive"], 
+             DynamicBox[
+              FEPrivate`FrontEndResource[
+              "HelpToolbarText", "TooltipRefresh"]]]}, "RowDefault"], 
+          CacheGraphics -> False, 
+          ButtonBoxOptions -> {BaselinePosition -> (Baseline -> Baseline)}], 
+         Alignment -> {Left, Center}, Appearance -> Image[CompressedData["
+1:eJztyDkKAkEUhOFGE0OvIHgIU0PTEQ8ww7SDSQs9gnhXl3HBfbmC7Q0qeWDw
+f1CPqtcr5tm05ZyrO+lk+XIYY74ad9OYhHpWBV+OwsJXPg6Kdnr2U8qUX/8A
+AAAA+HtvyF6AgSdg4AHZHbIbYOAKGLhAdobsBBg4QnaAbA9ZAxjYAQa2gIEN
+ZGvIvp8pRMU=
+           "], "Byte", ColorSpace -> "RGB", Interleaving -> 
+           True], ImageSize -> {
+           Scaled[1], Full}]], "DockedCell", CellFrame -> 0, 
+       CellMargins -> {{0, -10}, {-2, -1}}, 
+       CellFrameMargins -> {{0, 0}, {0, 0}}, ShowCodeAssist -> False, 
+       Background -> None], 
+      Cell[
+      "", CellSize -> {1, 1}, CellOpen -> False, 
+       CellFrame -> {{0, 0}, {2, 0}}, CellFrameColor -> GrayLevel[0.5]]}], 
+   Cell[
+    StyleData["DockedCell"], CellFrame -> {{0, 0}, {1, 0}}, CellFrameColor -> 
+    GrayLevel[0.5]]}, Visible -> False, FrontEndVersion -> 
+  "11.3 for Microsoft Windows (64-bit) (March 6, 2018)", StyleDefinitions -> 
+  "Default.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[578, 21, 2889, 83, 70, "AnchorBarGrid",ExpressionUUID->"381dfed7-b454-4bba-a075-46ac9baf3bfa",
+ CellID->1],
+Cell[3470, 106, 40, 1, 70, "ObjectName",ExpressionUUID->"3f7126b4-b3d3-4538-9efc-50b67bd535e4",
+ CellID->2],
+Cell[3513, 109, 487, 15, 70, "Usage",ExpressionUUID->"ea4ad003-c94a-4f83-9de8-436cfa3c9219",
+ CellID->3],
+Cell[CellGroupData[{
+Cell[4025, 128, 1352, 34, 70, "NotesSection",ExpressionUUID->"3103b5ed-c00e-433f-8719-0f3e864d80d7",
+ CellID->4],
+Cell[5380, 164, 229, 8, 70, "Notes",ExpressionUUID->"0cab2a6c-2922-458f-8e29-9c8da2ee22d0",
+ CellID->5],
+Cell[5612, 174, 5240, 105, 70, "NotesThumbnails",ExpressionUUID->"880fd925-6cf6-4baf-ab33-54d94fbfeec2",
+ CellOpen->FEPrivate`If[
+   FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], False, 
+   FEPrivate`Not[
+    FEPrivate`Or[
+     FEPrivate`SameQ[
+      FrontEnd`CurrentValue[
+       FrontEnd`EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}], Open], 
+     FEPrivate`SameQ[
+      FrontEnd`CurrentValue[
+       FrontEnd`EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}], True]]]],
+ CellID->6]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[10957, 283, 37, 1, 70, "PageDelimiter",ExpressionUUID->"b4c72c52-2eea-449b-a9e4-42d3ac60737a",
+ CellID->7],
+Cell[CellGroupData[{
+Cell[11019, 288, 1360, 34, 70, "PrimaryExamplesSection",ExpressionUUID->"665bf582-7f96-4948-92f8-166e23b49e2e",
+ CellID->8],
+Cell[CellGroupData[{
+Cell[12404, 326, 1352, 34, 70, "ExampleSection",ExpressionUUID->"e4c566b5-3ab9-46de-8123-04ac37892289",
+ CellID->9],
+Cell[13759, 362, 52, 1, 70, "ExampleText",ExpressionUUID->"85e0b598-4921-4b77-a663-788f8b04bf1b",
+ CellID->10],
+Cell[13814, 365, 116, 3, 70, "Input",ExpressionUUID->"0fe1818c-08a4-4d0b-9b92-3ecf79a956bb",
+ InitializationCell->True,
+ CellID->11],
+Cell[13933, 370, 285, 9, 70, "ExampleText",ExpressionUUID->"0dca19c9-c89d-480c-ba2d-05e3a3560041",
+ CellID->12],
+Cell[14221, 381, 96, 3, 70, "Input",ExpressionUUID->"a9771fad-9e99-4ca1-b528-1a4986aa8f69",
+ CellID->13],
+Cell[14320, 386, 65, 2, 70, "Output",ExpressionUUID->"381f53eb-5796-42e3-9c39-694a4acee257",
+ CellID->14],
+Cell[14388, 390, 291, 9, 70, "ExampleText",ExpressionUUID->"0dd04d28-9ef3-49ce-89a9-a1afe9ed1317",
+ CellID->15],
+Cell[14682, 401, 98, 3, 70, "Input",ExpressionUUID->"538b1eef-7e08-4981-830f-53c2d7b8ffaf",
+ CellID->16],
+Cell[14783, 406, 68, 2, 70, "Output",ExpressionUUID->"8933c073-746f-42a3-9901-07912c9b7b4b",
+ CellID->17],
+Cell[14854, 410, 286, 9, 70, "ExampleText",ExpressionUUID->"f640a021-5433-4df8-aecc-dda2d0330ae6",
+ CellID->18],
+Cell[15143, 421, 129, 4, 70, "Input",ExpressionUUID->"fe612a12-ac3f-4914-8de9-9edbad7a5965",
+ CellID->19],
+Cell[15275, 427, 65, 2, 70, "Output",ExpressionUUID->"c6835aaa-69f0-48dc-96f1-ddebda389ee1",
+ CellID->20]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[15477, 436, 1349, 34, 70, "ExampleSection",ExpressionUUID->"a336e3b8-aa2c-4944-8164-e86600715a0d",
+ CellID->21],
+Cell[16829, 472, 60, 1, 70, "ExampleText",ExpressionUUID->"e98c6a2d-fd9a-4538-a26e-4058233cda0b",
+ CellID->22],
+Cell[16892, 475, 123, 3, 70, "Input",ExpressionUUID->"b8217eda-34b7-49b4-85ce-48011e68d4fa",
+ CellID->23]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[17267, 488, 47, 1, 70, "SeeAlsoSection",ExpressionUUID->"471df97c-8b16-4afe-9f58-5c4b96951bd0",
+ CellID->24],
+Cell[17317, 491, 333, 8, 70, "SeeAlso",ExpressionUUID->"29d5a295-5040-4735-a572-b3cf43e1f873",
+ CellID->25]
+}, Open  ]],
+Cell[17665, 502, 70, 1, 70, "History",ExpressionUUID->"ea4c4ec0-b30c-4c40-a4bf-44bce301a524",
+ CellID->26],
+Cell[17738, 505, 36, 1, 70, "FooterCell",ExpressionUUID->"8a9e7f69-eb25-4715-8b9d-e83f182cc9b0",
+ CellID->27]
+}
+]
+*)
+
+(* End of internal cache information *)
