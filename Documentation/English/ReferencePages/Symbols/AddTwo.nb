@@ -10,11 +10,11 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     31166,        811]
-NotebookOptionsPosition[     18778,        540]
-NotebookOutlinePosition[     27290,        735]
-CellTagsIndexPosition[     27247,        732]
-WindowTitle->AddThree
+NotebookDataLength[     27489,        705]
+NotebookOptionsPosition[     15684,        447]
+NotebookOutlinePosition[     24125,        641]
+CellTagsIndexPosition[     24082,        638]
+WindowTitle->AddTwo
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,7 +25,7 @@ Cell[BoxData[GridBox[{
        DynamicBox[If[$VersionNumber < 11.1, 
          Cell[
          "PACLETTEST SYMBOL", "PacletNameCell", TextAlignment -> Center, 
-          CellID -> 27], 
+          CellID -> 25], 
          ItemBox[
           Cell[
            BoxData[
@@ -33,7 +33,7 @@ Cell[BoxData[GridBox[{
               TemplateBox[{8}, "Spacer1"], 
               Cell[
               "PACLETTEST SYMBOL", "PacletNameCell", TextAlignment -> Center, 
-               CellID -> 28], 
+               CellID -> 26], 
               TemplateBox[{8}, "Spacer1"]}]]], Background -> GrayLevel[0.5], 
           ItemSize -> Full]],
         ImageSizeCache->{17., {306., 10.}},
@@ -56,37 +56,12 @@ Cell[BoxData[GridBox[{
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]]]
          }]],
-         StripOnInput->False], {"\<\"AddTwo\"\>":>Documentation`HelpLookup[
-        "paclet:PacletTest/ref/AddTwo"]},
+         StripOnInput->False], {"\<\"AddThree\"\>":>Documentation`HelpLookup[
+        "paclet:PacletTest/ref/AddThree"]},
         Appearance->None,
         BaseStyle->"AnchorBarActionMenu",
         MenuAppearance->Automatic,
         MenuStyle->"SeeAlso"],
-       MouseAppearanceTag["LinkHand"]]],
-      LineSpacing->{1.4, 0}],
-     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
-\[ThickSpace]",
-     Cell[BoxData[
-      TagBox[
-       ActionMenuBox[
-        FrameBox[Cell[TextData[{
-          "Related Guides",
-          " ",
-          Cell[BoxData[
-           GraphicsBox[
-            {GrayLevel[0.66667], Thickness[0.13], 
-             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
-            AspectRatio->1,
-            ImageSize->20,
-            PlotRange->{{-3, 4}, {-1, 1}}]]]
-         }]],
-         StripOnInput->False], {"\<\"Related Guide Title\"\>":>
-        Documentation`HelpLookup["paclet:Documents/guide/RelatedGuide", 
-         EvaluationNotebook[]]},
-        Appearance->None,
-        BaseStyle->"AnchorBarActionMenu",
-        MenuAppearance->Automatic,
-        MenuStyle->"MoreAbout"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0}],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
@@ -107,19 +82,18 @@ Cell[BoxData[GridBox[{
          }]],
          StripOnInput->False], {
         RowBox[{
-         RowBox[{"PacletTest", "/", "ref"}], "/", "AddThree"}]:>None, 
+         RowBox[{"PacletTest", "/", "ref"}], "/", "AddTwo"}]:>None, 
         RowBox[{"Copy", " ", "Documentation", " ", "Center", " ", "URI"}]:>
-        CopyToClipboard["PacletTest/ref/AddThree"], Delimiter, 
+        CopyToClipboard["PacletTest/ref/AddTwo"], Delimiter, 
         RowBox[{"Copy", " ", "web", " ", "URL"}]:>CopyToClipboard[
          Hyperlink[
           
           URLBuild[{
-           BTools`Paclets`DocGen`$DocGenURLBase, 
-            "PacletTest/ref/AddThree"}]]], 
+           BTools`Paclets`DocGen`$DocGenURLBase, "PacletTest/ref/AddTwo"}]]], 
+        
         RowBox[{"Go", " ", "to", " ", "URL"}]:>SystemOpen[
          URLBuild[{
-          BTools`Paclets`DocGen`$DocGenURLBase, "PacletTest/ref/AddThree"}]]},
-        
+          BTools`Paclets`DocGen`$DocGenURLBase, "PacletTest/ref/AddTwo"}]]},
         Appearance->None,
         BaseStyle->"AnchorBarActionMenu",
         MenuAppearance->Automatic,
@@ -130,7 +104,7 @@ Cell[BoxData[GridBox[{
   }]], "AnchorBarGrid",
  CellID->1],
 
-Cell["AddThree", "ObjectName",
+Cell["AddTwo", "ObjectName",
  CellID->2],
 
 Cell[BoxData[GridBox[{
@@ -138,14 +112,15 @@ Cell[BoxData[GridBox[{
      Cell[BoxData[
       RowBox[{Cell[BoxData[
         TemplateBox[{Cell[
-           TextData["AddThree"]],"paclet:PacletTest/ref/AddThree"},
+           TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
          "RefLink",
          BaseStyle->{"InlineFormula"}]]], "[", 
        StyleBox["x", "TI"], "]"}]], "InlineFormula"],
      "\[LineSeparator]",
      Cell[BoxData[
-      RowBox[{"Adds", " ", "3", " ", "to", " ", 
-       RowBox[{"x", "."}]}]], "", "InlineFormula"]
+      RowBox[{" ", 
+       RowBox[{"Adds", " ", "2", " ", "to", " ", 
+        RowBox[{"x", "."}]}]}]], "", "InlineFormula"]
     }]]}
   }]], "Usage",
  CellID->3],
@@ -191,13 +166,12 @@ Cell[TextData[{
 Cell[TextData[{
  Cell[BoxData[
   TemplateBox[{Cell[
-     TextData["AddThree"]],"paclet:PacletTest/ref/AddThree"},
+     TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
    "RefLink",
    BaseStyle->{"InlineFormula"}]]],
- " has ",
- "1",
- " call",
- " pattern"
+ " takes a number ",
+ StyleBox["x", "TI"],
+ " and adds 2 to it"
 }], "Notes",
  CellID->5],
 
@@ -213,10 +187,10 @@ Cell[BoxData[
        Grid[{{"", 
           Spacer[10], 
           Image[CompressedData["
-1:eJzt2sEJwkAQBdBFPXi0Bbvw6kXwGrGAhKzBS4REEFuySd1zUsAEfA/+wmwF
-n2H2zaO6rVJK47Y8Vf06DkP9vuzKcO3He9fn9tw/c5eHQ7Mun5uSU8mn5AsA
-AAAAARIAwOJENyQAAAAAAAAAAACmoi/LAADmohsSAAAAAAAAAAAAU9GXZQAA
-c9ENCQAAAACWLXqDBwAAAMB/it6LAQDMRTckAAAAAFi2H5xGyjc=
+1:eJzt2sEJwkAQBdBFPXi0Bbvw6kXwGrGABGPwEiERxJZsUrcIyRD3PfgLsw18
+GGbb3KvrIqU0rvNT1c/9MNSv0yYP5368dX17OfaPtmuHXbPMn6ucQ8475wMA
+AAAA/IUEQGGimwcAAAAAAAAAAACYo+gLSACmFt08AAAAAAAAAAAAwBxFX0AC
+MLXo5gEAAAAAShO9FQUAAAAAfiN61wjA1KKbBwAAAAAozRfsBhVB
            "], "Byte", 
            ColorSpace -> "RGB", ImageSize -> All, Interleaving -> False, 
            Magnification -> Automatic]}}, Spacings -> {0, 0}, 
@@ -397,72 +371,53 @@ Cell[BoxData[
  InitializationCell->True,
  CellID->11],
 
-Cell[TextData[{
- "From ",
- Cell[BoxData[
-  RowBox[{Cell[BoxData[
-    TemplateBox[{Cell[
-       TextData["AddThree"]],"paclet:PacletTest/ref/AddThree"},
-     "RefLink",
-     BaseStyle->{"InlineFormula"}]]], "[", "x", "]"}]], "InlineFormula"],
- ":"
-}], "ExampleText",
+Cell["Add 2 to an integer", "ExampleText",
  CellID->12],
 
 Cell[BoxData[
- RowBox[{"AddThree", "[", "x", "]"}]], "Input",
- CellID->13]
-}, Dynamic[CurrentValue[
- EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
-  Closed]]]],
+ RowBox[{"AddTwo", "[", "1", "]"}]], "Input",
+ CellLabel->"In[23]:=",
+ CellID->13],
 
-Cell[CellGroupData[{
-
-Cell[TextData[{
- Cell[BoxData[
-  DynamicBox[If[$VersionNumber < 11.1, "", 
-    Cell[
-     BoxData[
-      ToBoxes[
-       Toggler[
-        Dynamic[
-         MatchQ[
-          CurrentValue[
-           EvaluationNotebook[], {
-           TaggingRules, "Openers", "ExampleSection", "1"}, Closed], 
-          Alternatives[Open, True]], (CurrentValue[
-            EvaluationNotebook[], {
-            TaggingRules, "Openers", "ExampleSection", "1"}] = #; Null)& , 
-         ImageSizeCache -> {14., {5., 9.}}], {True -> Style[
-           Graphics[{
-             Thickness[0.18], 
-             RGBColor[0.8509803921568627, 0.396078431372549, 0], 
-             Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
-            PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
-           0.68 Inherited], False -> Rotate[
-           Style[
-            Graphics[{
-              Thickness[0.18], 
-              RGBColor[0.8509803921568627, 0.396078431372549, 0], 
-              Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
-             PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
-            0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]}]]]]],
-   ImageSizeCache->{14., {6., 15.}},
-   UpdateInterval->Infinity]]],
- "Definitions"
-}], "ExampleSection",
- WholeCellGroupOpener->True,
+Cell[BoxData["3"], "Output",
+ CellLabel->"Out[23]=",
  CellID->14],
 
-Cell["Examine all definitions:", "ExampleText",
+Cell["Add 2 to a floating point", "ExampleText",
  CellID->15],
 
 Cell[BoxData[
- RowBox[{"GeneralUtilities`PrintDefinitionsLocal", "[", "PacletTest`AddThree",
-   "]"}]], "Input",
- CellID->16]
+ RowBox[{"AddTwo", "[", "1.1", "]"}]], "Input",
+ CellLabel->"In[22]:=",
+ CellID->16],
+
+Cell[BoxData["3.1`"], "Output",
+ CellLabel->"Out[22]=",
+ CellID->17],
+
+Cell[TextData[{
+ "Use ",
+ Cell[BoxData[
+  RowBox[{Cell[BoxData[
+    TemplateBox[{Cell[
+       TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+     "RefLink",
+     BaseStyle->{"InlineFormula"}]]], "[", "x", "]"}]], "InlineFormula"],
+ " recursively"
+}], "ExampleText",
+ CellID->18],
+
+Cell[BoxData[
+ RowBox[{"AddTwo", "[", 
+  RowBox[{"AddTwo", "[", "1", "]"}], "]"}]], "Input",
+ CellLabel->"In[21]:=",
+ CellID->19],
+
+Cell[BoxData["5"], "Output",
+ CellLabel->"Out[21]=",
+ CellID->20]
 }, Dynamic[CurrentValue[
- EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
   Closed]]]]
 }, Dynamic[CurrentValue[
  EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
@@ -471,95 +426,46 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell["See Also", "SeeAlsoSection",
- CellID->17],
+ CellID->21],
 
 Cell[TextData[Cell[BoxData[
  TemplateBox[{Cell[
-    TextData["AddTwo"]],"paclet:PacletTest/ref/AddTwo"},
+    TextData["AddThree"]],"paclet:PacletTest/ref/AddThree"},
   "RefLink",
   BaseStyle->Dynamic[
     If[$VersionNumber < 11.1, {"InlineFormula", FontFamily -> "Verdana"}, {
      "InlineFormula"}], UpdateInterval -> 
     DirectedInfinity[1]]]], "InlineFormula"]], "SeeAlso",
- CellID->18]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Related Guides", "MoreAboutSection",
- CellID->19],
-
-Cell[BoxData[
- DynamicBox[If[$VersionNumber < 11.1, 
-   TemplateBox[{
-     Cell[
-      TextData["Related Guide Title"]], 
-     "paclet:Documents/guide/RelatedGuide"}, "RefLink", 
-    BaseStyle -> {"InlineFormula", FontFamily -> "Verdana"}], 
-   TemplateBox[{
-     Cell[
-      TextData["Related Guide Title"]], 
-     "paclet:Documents/guide/RelatedGuide"}, "RefLinkPlain", 
-    BaseStyle -> {"InlineFormula"}]],
-  ImageSizeCache->{21., {121., 14.}},
-  UpdateInterval->Infinity]], "MoreAbout",
- CellID->20]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Related Tutorials", "RelatedTutorialsSection",
- CellID->21],
-
-Cell[BoxData[
- TemplateBox[{Cell[
-    TextData["Related Tutorial Title"]],
-   "paclet:Documents/tutorial/RelatedTutorial"},
-  "RefLinkPlain",
-  BaseStyle->{"InlineFormula"}]], "RelatedTutorials",
  CellID->22]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
-Cell["Related Links", "RelatedLinksSection",
+Cell["Generated on  Sun 12 May 2019 10:27:35", "History",
  CellID->23],
 
-Cell[TextData[Cell[BoxData[
- TemplateBox[{"Related Link Title","RelatedLink"},
-  "WebLink",
-  BaseStyle->{"RelatedLinks"}]]]], "RelatedLinks",
- CellID->24]
-}, Open  ]],
-
-Cell["Generated on  Sun 12 May 2019 10:20:02", "History",
- CellID->25],
-
 Cell[" ", "FooterCell",
- CellID->26]
+ CellID->24]
 },
 ClosingSaveDialog->False,
 Saveable->False,
 WindowSize->{775, 561},
 WindowMargins->{{287, Automatic}, {Automatic, 54}},
-WindowTitle->"AddThree",
+WindowTitle->"AddTwo",
 TaggingRules->{
  "ColorType" -> "SymbolColor", "ModificationHighlight" -> False, "LinkTrails" -> 
   "", "HasOptions" -> False, "SearchTextTranslated" -> "", 
   "Metadata" -> {
-   "built" -> "{2019, 5, 12, 10, 20, 2.8533489}", 
+   "built" -> "{2019, 5, 12, 10, 27, 36.4205575}", 
     "history" -> {"11.3", "", ""}, "context" -> "Documents`", 
-    "keywords" -> {"addthree", "add", "three"}, "specialkeywords" -> {}, 
+    "keywords" -> {"addtwo", "add", "two"}, "specialkeywords" -> {}, 
     "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> "PacletTest",
      "language" -> "en", "paclet" -> "Mathematica", "status" -> "None", 
-    "summary" -> "AddThree[x]. Adds 3 to x.", "synonyms" -> {}, 
-    "tabletags" -> {}, "title" -> "AddThree", "titlemodifier" -> "", 
-    "windowtitle" -> "AddThree", "type" -> "Symbol", "uri" -> 
-    "PacletTest/ref/AddThree"}, "NewStyles" -> True, 
+    "summary" -> "AddTwo[x] Adds 2 to x.", "synonyms" -> {}, 
+    "tabletags" -> {}, "title" -> "AddTwo", "titlemodifier" -> "", 
+    "windowtitle" -> "AddTwo", "type" -> "Symbol", "uri" -> 
+    "PacletTest/ref/AddTwo"}, "NewStyles" -> True, 
   "Openers" -> {
    "NotesSection" -> Closed, "PrimaryExamplesSection" -> Open, 
-    "ExampleSection" -> {"0" -> Open, "1" -> Closed}, 
-    "ExampleSection" -> {"1" -> Closed}}},
+    "ExampleSection" -> {"0" -> Open}}},
 CellContext->Notebook,
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->Notebook[{
@@ -734,18 +640,18 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[580, 21, 3774, 109, 70, "AnchorBarGrid",ExpressionUUID->"ef5906ce-4c1f-4aa1-94bf-4557a69bfc25",
+Cell[578, 21, 2889, 83, 70, "AnchorBarGrid",ExpressionUUID->"269f4fcf-be67-47bb-be39-adfbcbe52120",
  CellID->1],
-Cell[4357, 132, 42, 1, 70, "ObjectName",ExpressionUUID->"ab2f2824-34a2-4e45-a5f2-cfe94d0e4b36",
+Cell[3470, 106, 40, 1, 70, "ObjectName",ExpressionUUID->"3c022358-60e1-45d5-9bc1-1abc85e21e84",
  CellID->2],
-Cell[4402, 135, 491, 15, 70, "Usage",ExpressionUUID->"33e694e8-41fd-4162-8ce3-6c38bc89f0d3",
+Cell[3513, 109, 511, 16, 70, "Usage",ExpressionUUID->"3d24e8f1-e5cb-4b62-b5dc-74ff15f72b09",
  CellID->3],
 Cell[CellGroupData[{
-Cell[4918, 154, 1352, 34, 70, "NotesSection",ExpressionUUID->"1a361d52-4de5-45a5-86de-6c41d949f1d5",
+Cell[4049, 129, 1352, 34, 70, "NotesSection",ExpressionUUID->"efe2eaca-bc18-437a-bba7-6bb229420267",
  CellID->4],
-Cell[6273, 190, 226, 11, 70, "Notes",ExpressionUUID->"1d5c75f5-97db-46d4-9f38-bec38dee0544",
+Cell[5404, 165, 248, 10, 70, "Notes",ExpressionUUID->"0f4a740a-32e0-4dda-8fcd-f91d76086759",
  CellID->5],
-Cell[6502, 203, 5240, 105, 70, "NotesThumbnails",ExpressionUUID->"4a8bf9bb-b66b-473d-a69f-1f469b78947b",
+Cell[5655, 177, 5240, 105, 70, "NotesThumbnails",ExpressionUUID->"8364dd85-101f-4ff0-acb3-61f5096736c1",
  CellOpen->FEPrivate`If[
    FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], False, 
    FEPrivate`Not[
@@ -758,61 +664,49 @@ Cell[6502, 203, 5240, 105, 70, "NotesThumbnails",ExpressionUUID->"4a8bf9bb-b66b-
        FrontEnd`EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}], True]]]],
  CellID->6]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
-Cell[11847, 312, 37, 1, 70, "PageDelimiter",ExpressionUUID->"12645300-cca2-432d-ada7-e011a1634d2f",
+Cell[11000, 286, 37, 1, 70, "PageDelimiter",ExpressionUUID->"5df5a0b4-b0a5-40a2-8aa5-7350c95be49e",
  CellID->7],
 Cell[CellGroupData[{
-Cell[11909, 317, 1360, 34, 70, "PrimaryExamplesSection",ExpressionUUID->"9a4ee1b0-6d15-4dc3-8ee3-8bc08c61655b",
+Cell[11062, 291, 1360, 34, 70, "PrimaryExamplesSection",ExpressionUUID->"73d46c1e-844d-4bec-a2e7-0a85d3bd2e5c",
  CellID->8],
 Cell[CellGroupData[{
-Cell[13294, 355, 1352, 34, 70, "ExampleSection",ExpressionUUID->"e9aac308-05f3-4474-a2d4-a8c2009524f3",
+Cell[12447, 329, 1352, 34, 70, "ExampleSection",ExpressionUUID->"01b1e298-d654-46ea-a91e-af1af4fbf767",
  CellID->9],
-Cell[14649, 391, 52, 1, 70, "ExampleText",ExpressionUUID->"60d4a927-c9f1-48cf-82b4-6321e717a828",
+Cell[13802, 365, 52, 1, 70, "ExampleText",ExpressionUUID->"6c42fbc8-0495-49c6-9031-7650959fed1e",
  CellID->10],
-Cell[14704, 394, 116, 3, 70, "Input",ExpressionUUID->"0fcdc7be-98cf-4581-9a92-87c1d0f2bb9c",
+Cell[13857, 368, 116, 3, 70, "Input",ExpressionUUID->"1c00d5fe-da7e-4b01-8770-2d2f8a6642d3",
  InitializationCell->True,
  CellID->11],
-Cell[14823, 399, 278, 10, 70, "ExampleText",ExpressionUUID->"b6ca4e7c-486c-4a08-9da9-0482ff5d8bd8",
+Cell[13976, 373, 55, 1, 70, "ExampleText",ExpressionUUID->"24cf28c7-1b9d-4003-91b1-d3692b6a1bde",
  CellID->12],
-Cell[15104, 411, 74, 2, 70, "Input",ExpressionUUID->"ca103b45-74ea-4578-96d8-5e87fac41f1d",
- CellID->13]
-}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
-Cell[CellGroupData[{
-Cell[15315, 420, 1349, 34, 70, "ExampleSection",ExpressionUUID->"74c936ca-2a0b-4fef-8aec-e8310f80e1bf",
+Cell[14034, 376, 96, 3, 70, "Input",ExpressionUUID->"0712b394-a398-46fe-9f78-3c8cf7807978",
+ CellID->13],
+Cell[14133, 381, 65, 2, 70, "Output",ExpressionUUID->"c3299c0d-fd64-4705-9687-17a4c7624e58",
  CellID->14],
-Cell[16667, 456, 60, 1, 70, "ExampleText",ExpressionUUID->"ee0905e8-30c7-4db8-8e95-4972ca2eeee5",
+Cell[14201, 385, 61, 1, 70, "ExampleText",ExpressionUUID->"383e01a3-d863-473b-9e08-c18bd22ec070",
  CellID->15],
-Cell[16730, 459, 125, 3, 70, "Input",ExpressionUUID->"7238de7f-1a94-4cad-a0dc-c59c3fb566dd",
- CellID->16]
-}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]]
+Cell[14265, 388, 98, 3, 70, "Input",ExpressionUUID->"717aeab1-3dd4-4860-9033-d91392d8e540",
+ CellID->16],
+Cell[14366, 393, 68, 2, 70, "Output",ExpressionUUID->"bb31b6cf-70d9-476e-91f5-16f5efdb392b",
+ CellID->17],
+Cell[14437, 397, 284, 10, 70, "ExampleText",ExpressionUUID->"bd8652f3-946d-438b-9737-cb5232481634",
+ CellID->18],
+Cell[14724, 409, 129, 4, 70, "Input",ExpressionUUID->"238a7b8d-b1f3-4572-9325-36016a696244",
+ CellID->19],
+Cell[14856, 415, 65, 2, 70, "Output",ExpressionUUID->"76569815-b75e-4506-b583-2723ea249e72",
+ CellID->20]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
 Cell[CellGroupData[{
-Cell[17107, 472, 47, 1, 70, "SeeAlsoSection",ExpressionUUID->"b45b6784-8edc-4e59-9e0e-a67bd8d51719",
- CellID->17],
-Cell[17157, 475, 329, 8, 70, "SeeAlso",ExpressionUUID->"bf0d4df4-e16a-47d6-a3ba-625d54be729a",
- CellID->18]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[17523, 488, 55, 1, 70, "MoreAboutSection",ExpressionUUID->"1ed8857e-6434-4864-9be5-83d6123c6b81",
- CellID->19],
-Cell[17581, 491, 504, 14, 70, "MoreAbout",ExpressionUUID->"98c082ee-95ab-45f6-9bb6-9dbb1737e203",
- CellID->20]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[18122, 510, 65, 1, 70, "RelatedTutorialsSection",ExpressionUUID->"9d5053ca-71b7-4aea-8d5a-6243decfe0f5",
+Cell[15173, 427, 47, 1, 70, "SeeAlsoSection",ExpressionUUID->"155fe928-57a8-4b57-bcf4-8d7f061b63f0",
  CellID->21],
-Cell[18190, 513, 208, 6, 70, "RelatedTutorials",ExpressionUUID->"3014b694-187d-4834-a419-a65a5839dea6",
+Cell[15223, 430, 333, 8, 70, "SeeAlso",ExpressionUUID->"e92b1076-4d8d-4d00-a99f-c8173be1715d",
  CellID->22]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[18435, 524, 57, 1, 70, "RelatedLinksSection",ExpressionUUID->"289152be-9f0b-49e5-94a3-b1ff29fe337a",
+Cell[15571, 441, 70, 1, 70, "History",ExpressionUUID->"f7929f69-e9ef-45b3-95e2-c18f1c31f0e3",
  CellID->23],
-Cell[18495, 527, 155, 4, 70, "RelatedLinks",ExpressionUUID->"d5e831a2-d5fc-440f-a5ab-83883037610d",
+Cell[15644, 444, 36, 1, 70, "FooterCell",ExpressionUUID->"83829c5c-3c54-41f0-aac6-7dfbb95d85c8",
  CellID->24]
-}, Open  ]],
-Cell[18665, 534, 70, 1, 70, "History",ExpressionUUID->"336d2eb1-a57a-4187-9407-66dbab6df933",
- CellID->25],
-Cell[18738, 537, 36, 1, 70, "FooterCell",ExpressionUUID->"856a87f5-b910-4148-b3a7-12937a79654b",
- CellID->26]
 }
 ]
 *)
